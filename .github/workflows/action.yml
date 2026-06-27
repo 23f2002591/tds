@@ -1,0 +1,17 @@
+name: TDS GitHub Action
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 23f2002591@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
+
+      - name: Finish
+        run: echo "Workflow completed"
